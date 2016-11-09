@@ -1,0 +1,40 @@
+@media screen and (max-width: 1000px){
+    .nav{
+        width: 100%;
+    }
+    .top-z,.top-y{
+        display: none;
+    }
+    .nav .cha{
+        display: block;
+    }
+    .menu{
+        display: block;
+    }
+    .menu li a{
+        display: block;
+    }
+    .bg-head{
+        width: 100%;
+    }
+    @media screen and (max-width: 800px){
+        .bg-head .feiji,.bg-head .yuqing{
+            display: none;
+        }
+        .denglu{
+            right: 20%;
+        }
+        .s-you,.t-you,.f-you{
+            display: none;
+        }
+        .s-zuo,.t-zuo,.f-zuo{
+            left: 10%;
+        }
+        .second-bg{
+            width: 100%;
+        }
+        .btna{
+            left: 50%;
+        }
+    }
+}
